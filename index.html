@@ -1,0 +1,1238 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="web_standard" name="shell-type">
+<meta name="description" content="Praveen S — Mobile & AI Systems Architect. Flutter SDK expert, Bloc architecture, GCP serverless scalability, and Claude/Gemini AI developer workflows.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f172a'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='bold' font-size='42' fill='%230284c7'>PS</text></svg>">
+<meta property="og:title" content="Praveen S | Mobile & AI Systems Architect — Executive Portfolio">
+<meta property="og:description" content="Production cross-platform Flutter engineering, Bloc architectures, GCP Cloud Run scalability, and Claude 3.5 Sonnet / Gemini RAG pipelines.">
+<meta property="og:type" content="website">
+
+<title>Praveen S | Mobile &amp; AI Systems Architect — Executive Portfolio</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<style>
+    @layer base {
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #F8FAFC;
+        color: #0F172A;
+        font-family: 'Inter', sans-serif;
+        scroll-behavior: smooth;
+      }
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F1F5F9;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #CBD5E1;
+        border-radius: 9999px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94A3B8;
+      }
+    }
+  </style>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            platinum: "#F8FAFC",
+            canvas: "#FFFFFF",
+            obsidian: "#0F172A",
+            charcoal: "#1E293B",
+            muted: "#64748B",
+            subtle: "#94A3B8",
+            borderline: "#E2E8F0",
+            primary: {
+              DEFAULT: "#0284C7",
+              light: "#0EA5E9",
+              focus: "#0369A1",
+              tint: "#E0F2FE",
+              cyan: "#06B6D4"
+            },
+            accent: {
+              violet: "#7C3AED",
+              violetTint: "#F5F3FF",
+              emerald: "#059669",
+              emeraldTint: "#ECFDF5"
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          },
+          boxShadow: {
+            'card': '0 1px 3px 0 rgba(15, 23, 42, 0.05), 0 1px 2px -1px rgba(15, 23, 42, 0.05)',
+            'card-hover': '0 12px 28px -4px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.03)',
+            'elevated': '0 20px 40px -15px rgba(2, 132, 199, 0.12), 0 1px 3px rgba(15, 23, 42, 0.04)',
+            'glass': 'inset 0 1px 0 0 rgba(255, 255, 255, 0.8), 0 4px 20px -2px rgba(15, 23, 42, 0.06)'
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-platinum text-obsidian antialiased selection:bg-primary-tint selection:text-primary-focus">
+<!-- Executive Header Navigation -->
+<header class="fixed top-0 left-0 w-full z-40 bg-white/85 backdrop-blur-xl border-b border-borderline">
+<div class="max-w-7xl mx-auto h-20 px-6 lg:px-12 flex items-center justify-between gap-6">
+<!-- Brand & Position Signature -->
+<div class="flex items-center gap-6">
+<a class="group flex items-center gap-3.5" href="#">
+<div class="w-10 h-10 rounded-xl bg-obsidian text-white flex items-center justify-center font-mono font-bold text-sm tracking-wider shadow-sm group-hover:bg-primary transition-colors">
+            PS
+          </div>
+<div class="flex flex-col">
+<span class="font-display font-bold text-base text-obsidian tracking-tight group-hover:text-primary transition-colors">Praveen S</span>
+<span class="font-mono text-xs text-muted">Mobile &amp; AI Systems Architect</span>
+</div>
+</a>
+<!-- Availability Ribbon -->
+<div class="hidden xl:flex items-center gap-2 px-3 py-1 rounded-full bg-accent-emeraldTint border border-emerald-200">
+<span class="w-2 h-2 rounded-full bg-accent-emerald animate-pulse"></span>
+<span class="font-mono text-xs font-semibold text-emerald-800">Available for Senior Mobile Roles</span>
+</div>
+</div>
+<!-- Navigation Tabs -->
+<nav class="hidden lg:flex items-center gap-1.5 p-1 rounded-xl bg-slate-100/90 border border-slate-200/80 text-sm">
+<a class="px-4 py-1.5 rounded-lg bg-white font-medium text-obsidian shadow-sm transition-all" href="#">Overview</a>
+<a class="px-4 py-1.5 rounded-lg text-muted hover:text-obsidian hover:bg-white/60 font-medium transition-all" href="#case-studies">Case Studies</a>
+<a class="px-4 py-1.5 rounded-lg text-muted hover:text-obsidian hover:bg-white/60 font-medium transition-all" href="#alignment-matrix">Akra Fit</a>
+<a class="px-4 py-1.5 rounded-lg text-muted hover:text-obsidian hover:bg-white/60 font-medium transition-all" href="#tech-taxonomy">Architecture</a>
+<a class="px-4 py-1.5 rounded-lg text-muted hover:text-obsidian hover:bg-white/60 font-medium transition-all" href="#contact-section">Contact</a>
+</nav>
+<!-- Right CTAs -->
+<div class="flex items-center gap-3">
+<a aria-label="GitHub Repository" class="w-10 h-10 rounded-xl border border-borderline bg-white hover:border-primary/40 hover:text-primary text-muted flex items-center justify-center transition-all shadow-card" href="https://github.com/Praveen0586" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+</a>
+<button class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-primary hover:bg-primary-focus text-white font-medium text-sm shadow-sm transition-all" onclick="openResumeModal()">
+<span class="material-symbols-outlined text-[18px]">description</span>
+<span>View Resume</span>
+</button>
+</div>
+</div>
+</header>
+<main class="w-full pt-20">
+<!-- Ambient Studio Backdrop Glows -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[1100px] h-[480px] bg-gradient-to-r from-sky-100/60 via-cyan-100/40 to-violet-100/40 blur-[120px] rounded-full pointer-events-none -z-10"></div>
+<div class="absolute top-[600px] right-0 w-[500px] h-[500px] bg-sky-50/70 blur-[100px] rounded-full pointer-events-none -z-10"></div>
+<!-- HERO SECTION -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 pt-12 pb-16">
+<!-- Target Alignment Badge -->
+<div class="flex flex-wrap items-center gap-3 mb-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-borderline shadow-card">
+<span class="w-2 h-2 rounded-full bg-primary-cyan animate-ping"></span>
+<span class="font-mono text-xs font-bold tracking-wider text-primary uppercase">Executive Monolith Portfolio</span>
+</div>
+<div class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-xs font-mono font-medium text-charcoal">
+<span class="material-symbols-outlined text-[15px] text-accent-emerald">verified</span>
+<span>Matched for Akra Tech • Mobile Developer Role</span>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+<!-- Hero Left: Typography & Spec Highlights -->
+<div class="lg:col-span-8 flex flex-col">
+<div class="flex items-center gap-2 text-primary font-mono text-xs font-bold tracking-widest uppercase mb-2">
+<span class="material-symbols-outlined text-[16px]">devices_fold</span>
+<span>Autonomous Mobile Engineering &amp; LLM Systems</span>
+</div>
+<h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-obsidian tracking-tight leading-[1.12]">
+              Praveen S <span class="text-muted font-normal text-3xl sm:text-4xl block mt-1">— Mobile Application Developer</span>
+</h1>
+<p class="text-lg text-charcoal/80 mt-6 max-w-3xl leading-relaxed font-normal">
+              Specialized in production cross-platform engineering with <span class="text-obsidian font-semibold">Flutter &amp; Dart</span> (Android &amp; iOS parity), reactive multi-tier state machines (<span class="font-mono text-sm bg-slate-100 px-1.5 py-0.5 rounded text-charcoal border border-slate-200">Bloc / GetX / Provider</span>), zero-cost serverless indexing, and high-velocity <span class="text-primary font-semibold">AI developer workflows</span> (Claude 3.5 Sonnet, Gemini RAG pipelines).
+            </p>
+<!-- Skill Badges -->
+<div class="flex flex-wrap gap-2.5 mt-8">
+<span class="px-3.5 py-1.5 rounded-lg bg-white border border-borderline text-obsidian font-mono text-xs font-semibold flex items-center gap-1.5 shadow-card"><span class="material-symbols-outlined text-[16px] text-primary">schedule</span> 2.4+ Years Experience</span>
+<span class="px-3.5 py-1.5 rounded-lg bg-white border border-borderline text-obsidian font-mono text-xs font-semibold flex items-center gap-1.5 shadow-card">
+<span class="material-symbols-outlined text-[16px] text-primary-cyan">flutter</span> Flutter &amp; Dart (Dual Native)
+              </span>
+<span class="px-3.5 py-1.5 rounded-lg bg-white border border-borderline text-obsidian font-mono text-xs font-semibold flex items-center gap-1.5 shadow-card">
+<span class="material-symbols-outlined text-[16px] text-accent-violet">schema</span> Bloc • GetX • Clean MVVM
+              </span>
+<span class="px-3.5 py-1.5 rounded-lg bg-accent-violetTint border border-purple-200 text-purple-900 font-mono text-xs font-semibold flex items-center gap-1.5 shadow-card">
+<span class="material-symbols-outlined text-[16px] text-accent-violet">psychology</span> Claude &amp; Gemini AI Workflows
+              </span>
+<span class="px-3.5 py-1.5 rounded-lg bg-accent-emeraldTint border border-emerald-200 text-emerald-900 font-mono text-xs font-semibold flex items-center gap-1.5 shadow-card">
+<span class="material-symbols-outlined text-[16px] text-accent-emerald">cloud_sync</span> Zero-Downtime GCP Cloud Run
+              </span>
+</div>
+<!-- CTA Row -->
+<div class="flex flex-wrap items-center gap-4 mt-9">
+<a class="px-6 py-3.5 rounded-xl bg-obsidian hover:bg-charcoal text-white font-medium text-sm shadow-card flex items-center gap-2 transition-all" href="#case-studies">
+<span>Explore Interactive Case Studies</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<button class="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 border border-borderline text-obsidian font-medium text-sm shadow-card flex items-center gap-2 transition-all" onclick="openResumeModal()">
+<span class="material-symbols-outlined text-[18px] text-primary">download</span>
+<span>Download ATS Resume (A4 / Legal)</span>
+</button>
+<a class="px-4 py-3.5 rounded-xl text-muted hover:text-primary font-medium text-sm flex items-center gap-1.5 transition-colors" href="#contact-section">
+<span>Direct Contact</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Hero Right: Candidate Telemetry Card -->
+<div class="lg:col-span-4 w-full">
+<div class="p-6 rounded-2xl bg-white border border-borderline shadow-elevated flex flex-col gap-5 relative overflow-hidden">
+<div class="flex items-center justify-between border-b border-slate-100 pb-4">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-accent-emerald"></span>
+<span class="font-mono text-xs font-bold text-obsidian uppercase tracking-wider">Candidate Telemetry</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-md bg-sky-50 border border-sky-200 font-mono text-[11px] font-bold text-primary">PROD ACTIVE</span>
+</div>
+<!-- Profile Micro-Banner -->
+<div class="p-4 rounded-xl bg-slate-50 border border-slate-100 flex items-center gap-4">
+<div class="w-13 h-13 p-3 rounded-xl bg-gradient-to-br from-primary to-accent-violet text-white font-display font-bold text-xl flex items-center justify-center shrink-0 shadow-sm">
+                  PS
+                </div>
+<div class="flex flex-col min-w-0">
+<span class="font-display font-bold text-base text-obsidian truncate">Praveen S</span>
+<span class="text-xs text-muted truncate">Mobile &amp; Cloud Systems Specialist</span>
+<span class="font-mono text-xs text-accent-emerald font-medium mt-0.5 flex items-center gap-1"><span class="material-symbols-outlined text-[13px]">location_on</span> On-site / Remote / Hybrid</span>
+</div>
+</div>
+<!-- Metric Matrix Grid -->
+<div class="grid grid-cols-2 gap-3">
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 flex flex-col">
+<span class="font-display text-2xl font-extrabold text-primary">5+</span>
+<span class="font-mono text-[11px] uppercase tracking-wide text-muted font-semibold mt-0.5">Production Apps</span>
+</div>
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 flex flex-col">
+<span class="font-display text-2xl font-extrabold text-accent-emerald">1k+</span>
+<span class="font-mono text-[11px] uppercase tracking-wide text-muted font-semibold mt-0.5">Live Inquiries</span>
+</div>
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 flex flex-col">
+<span class="font-display text-2xl font-extrabold text-primary-cyan">$0</span>
+<span class="font-mono text-[11px] uppercase tracking-wide text-muted font-semibold mt-0.5">Geohash Maps Cost</span>
+</div>
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 flex flex-col">
+<span class="font-display text-2xl font-extrabold text-accent-violet">100%</span>
+<span class="font-mono text-[11px] uppercase tracking-wide text-muted font-semibold mt-0.5">On-Time Sprint</span>
+</div>
+</div>
+<!-- Terminal Status Stream -->
+<div class="p-3.5 rounded-xl bg-obsidian text-slate-300 font-mono text-xs flex flex-col gap-1.5 shadow-inner">
+<div class="flex items-center justify-between text-subtle text-[11px] border-b border-slate-800 pb-1">
+<span>runtime::profile</span>
+<span class="text-accent-emerald font-semibold">healthy</span>
+</div>
+<p class="text-primary-light truncate">&gt; flutter analyze [0 errors, 0 warnings]</p>
+<p class="text-slate-400 truncate">&gt; claude-codex: 4.8x unit test generation</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. AKRA TECH FIT & REQUIREMENT ALIGNMENT MATRIX -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-12" id="alignment-matrix">
+<div class="p-8 lg:p-12 rounded-3xl bg-white border border-borderline shadow-card">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10 pb-6 border-b border-slate-100">
+<div>
+<div class="flex items-center gap-1.5 text-primary font-mono text-xs font-bold tracking-widest uppercase mb-1">
+<span class="material-symbols-outlined text-[17px]">verified</span>
+<span>Role Requirement Alignment</span>
+</div>
+<h2 class="font-display text-3xl font-bold text-obsidian tracking-tight">
+                Why Praveen S is the Exact Match for Akra Tech
+              </h2>
+</div>
+<span class="font-mono text-xs font-bold px-3.5 py-1.5 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 self-start md:self-auto">
+              100% Core Competency Coverage
+            </span>
+</div>
+<!-- 4 Pillars -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Pillar 1 -->
+<div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between hover:border-primary/50 hover:bg-white hover:shadow-card transition-all group">
+<div>
+<div class="w-10 h-10 rounded-xl bg-sky-100 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[22px]">phone_iphone</span>
+</div>
+<span class="font-mono text-xs font-bold text-primary uppercase tracking-wider block mb-1">Pillar 01</span>
+<h3 class="font-display font-semibold text-lg text-obsidian mb-2">Flutter &amp; Cross-Platform</h3>
+<div class="text-xs text-charcoal/80 flex flex-col gap-2.5">
+<p><span class="font-semibold text-obsidian">Akra Tech JD:</span> Flutter SDK expertise, iOS &amp; Android parity, high-fidelity responsive UI.</p>
+<div class="p-3 rounded-lg bg-white border border-slate-200 text-charcoal text-xs">
+<span class="font-bold text-primary">Praveen's Output:</span> Built 2 native-feeling dual apps for Offer Mela, production B2B Polymer Market, &amp; Smart Leader.
+                  </div>
+</div>
+</div>
+<div class="pt-5 flex items-center gap-1.5 text-accent-emerald font-mono text-xs font-bold">
+<span class="material-symbols-outlined text-[16px]">check_circle</span> Verified in Production
+              </div>
+</div>
+<!-- Pillar 2 -->
+<div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between hover:border-accent-violet/50 hover:bg-white hover:shadow-card transition-all group">
+<div>
+<div class="w-10 h-10 rounded-xl bg-purple-100 text-accent-violet flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[22px]">schema</span>
+</div>
+<span class="font-mono text-xs font-bold text-accent-violet uppercase tracking-wider block mb-1">Pillar 02</span>
+<h3 class="font-display font-semibold text-lg text-obsidian mb-2">State Architecture</h3>
+<div class="text-xs text-charcoal/80 flex flex-col gap-2.5">
+<p><span class="font-semibold text-obsidian">Akra Tech JD:</span> Predictable, reactive architectures, zero widget rebuild overhead.</p>
+<div class="p-3 rounded-lg bg-white border border-slate-200 text-charcoal text-xs">
+<span class="font-bold text-accent-violet">Praveen's Output:</span> Mastered Bloc (Events/States), GetX, and Provider with strict separation, offline cache, &amp; DevTools profiling.
+                  </div>
+</div>
+</div>
+<div class="pt-5 flex items-center gap-1.5 text-accent-emerald font-mono text-xs font-bold">
+<span class="material-symbols-outlined text-[16px]">check_circle</span> Zero Jank Profiling
+              </div>
+</div>
+<!-- Pillar 3 -->
+<div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between hover:border-primary-cyan/50 hover:bg-white hover:shadow-card transition-all group">
+<div>
+<div class="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[22px]">smart_toy</span>
+</div>
+<span class="font-mono text-xs font-bold text-cyan-800 uppercase tracking-wider block mb-1">Pillar 03</span>
+<h3 class="font-display font-semibold text-lg text-obsidian mb-2">AI-Assisted Workflows</h3>
+<div class="text-xs text-charcoal/80 flex flex-col gap-2.5">
+<p><span class="font-semibold text-obsidian">Akra Tech JD:</span> Leveraging next-gen LLMs (Claude, Gemini) to compress iteration cycles.</p>
+<div class="p-3 rounded-lg bg-white border border-slate-200 text-charcoal text-xs">
+<span class="font-bold text-cyan-800">Praveen's Output:</span> Daily Claude architectural synthesis, Gemini RAG pipelines, voice STT/TTS integration.
+                  </div>
+</div>
+</div>
+<div class="pt-5 flex items-center gap-1.5 text-accent-emerald font-mono text-xs font-bold">
+<span class="material-symbols-outlined text-[16px]">check_circle</span> 4x Development Velocity
+              </div>
+</div>
+<!-- Pillar 4 -->
+<div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between hover:border-emerald-500/50 hover:bg-white hover:shadow-card transition-all group">
+<div>
+<div class="w-10 h-10 rounded-xl bg-emerald-100 text-accent-emerald flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[22px]">rocket_launch</span>
+</div>
+<span class="font-mono text-xs font-bold text-emerald-800 uppercase tracking-wider block mb-1">Pillar 04</span>
+<h3 class="font-display font-semibold text-lg text-obsidian mb-2">Full Release Lifecycle</h3>
+<div class="text-xs text-charcoal/80 flex flex-col gap-2.5">
+<p><span class="font-semibold text-obsidian">Akra Tech JD:</span> Store releases, continuous integration, backend container synergy.</p>
+<div class="p-3 rounded-lg bg-white border border-slate-200 text-charcoal text-xs">
+<span class="font-bold text-emerald-800">Praveen's Output:</span> GCP Cloud Run, Docker containers, Play Store &amp; TestFlight distributions, GitHub Actions CI/CD.
+                  </div>
+</div>
+</div>
+<div class="pt-5 flex items-center gap-1.5 text-accent-emerald font-mono text-xs font-bold">
+<span class="material-symbols-outlined text-[16px]">check_circle</span> Automated Deployment
+              </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. INTERACTIVE FEATURED CASE STUDIES & DRAWER SYSTEM -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-12" id="case-studies">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-4 mb-8">
+<div>
+<div class="flex items-center gap-2 text-primary font-mono text-xs font-bold tracking-widest uppercase mb-1">
+<span class="material-symbols-outlined text-[18px]">layers</span>
+<span>Interactive Architecture Showcase</span>
+</div>
+<h2 class="font-display text-3xl sm:text-4xl font-bold text-obsidian tracking-tight">
+              Case Studies: Production Systems &amp; Realized ROI
+            </h2>
+<p class="text-muted text-sm mt-1">
+              Click any project card to open its deep architectural topology, Claude prompt workflow, and live metrics.
+            </p>
+</div>
+<!-- Interactive Category Filter Tabs -->
+<div class="flex flex-wrap items-center gap-2 p-1.5 rounded-xl bg-slate-100 border border-slate-200 text-xs font-mono">
+<button class="filter-btn active px-3.5 py-1.5 rounded-lg bg-white text-obsidian font-bold shadow-sm transition-all" onclick="filterProjects('all', this)">All Work (4)</button>
+<button class="filter-btn px-3.5 py-1.5 rounded-lg text-muted hover:text-obsidian transition-all" onclick="filterProjects('flutter', this)">Flutter / Mobile</button>
+<button class="filter-btn px-3.5 py-1.5 rounded-lg text-muted hover:text-obsidian transition-all" onclick="filterProjects('ai', this)">AI &amp; Cloud RAG</button>
+<button class="filter-btn px-3.5 py-1.5 rounded-lg text-muted hover:text-obsidian transition-all" onclick="filterProjects('devops', this)">DevOps &amp; CI/CD</button>
+</div>
+</div>
+<!-- Project Cards Grid -->
+<div class="flex flex-col gap-8" id="projects-container">
+<!-- PROJECT 1: Offer Mela -->
+<article class="project-card cursor-pointer p-8 lg:p-10 rounded-3xl bg-white border border-borderline hover:border-primary/50 shadow-card hover:shadow-card-hover transition-all duration-300 relative group" data-category="flutter" onclick="openProjectModal('offermela')">
+<div class="absolute top-6 right-6 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 group-hover:bg-primary-tint group-hover:text-primary text-muted text-xs font-mono font-medium transition-colors">
+<span>Inspect Deep Dive</span>
+<span class="material-symbols-outlined text-[16px] group-hover:translate-x-0.5 transition-transform">open_in_new</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div>
+<div class="flex flex-wrap items-center gap-2 mb-3">
+<span class="px-2.5 py-1 rounded-md bg-sky-50 text-primary border border-sky-200 font-mono text-xs font-bold uppercase">Sole Mobile Engineer</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-charcoal font-mono text-xs font-medium">Flutter • Dart • Node.js</span>
+<span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 font-mono text-xs font-semibold">Closed Testing Live</span>
+</div>
+<h3 class="font-display text-2xl sm:text-3xl font-bold text-obsidian group-hover:text-primary transition-colors">
+                    Offer Mela — Dual Mobile Ecosystem &amp; Hyperlocal Discovery
+                  </h3>
+<p class="text-charcoal/80 text-sm mt-3 leading-relaxed">
+                    Directed the engineering lifecycle from product design handoff to production deployment across two standalone apps: merchant/customer deal feed and merchant management, backed by an async Node.js server.
+                  </p>
+<!-- Architectural Callout -->
+<div class="mt-4 p-4 rounded-xl bg-slate-50 border border-slate-200 flex flex-col gap-1.5">
+<div class="flex items-center gap-1.5 text-accent-emerald font-mono text-xs font-bold uppercase">
+<span class="material-symbols-outlined text-[16px]">map</span>
+<span>Zero-Cost Geohash Optimization Logic</span>
+</div>
+<p class="text-xs text-charcoal/80">
+                      Eliminated recurring Google Maps Distance Matrix bills via Firestore client-side Geohash bounding queries. Achieved <span class="text-accent-emerald font-bold">$0 API overhead</span> with sub-100ms spatial indexing.
+                    </p>
+</div>
+</div>
+<!-- Metrics Ribbon -->
+<div class="flex flex-wrap items-center gap-6 pt-6 mt-4 border-t border-slate-100">
+<div>
+<span class="font-display text-xl font-bold text-obsidian">2 Apps</span>
+<span class="font-mono text-xs text-muted block">Ground-up Build</span>
+</div>
+<div class="h-6 w-px bg-slate-200"></div>
+<div>
+<span class="font-display text-xl font-bold text-primary">60 FPS</span>
+<span class="font-mono text-xs text-muted block">Jank-Free Render</span>
+</div>
+<div class="h-6 w-px bg-slate-200"></div>
+<div>
+<span class="font-display text-xl font-bold text-accent-emerald">100% Policy</span>
+<span class="font-mono text-xs text-muted block">Play Store Safety</span>
+</div>
+</div>
+</div>
+<!-- Terminal Preview / Architecture Window -->
+<div class="lg:col-span-5 flex flex-col gap-3">
+<div class="p-5 rounded-2xl bg-obsidian text-slate-300 font-mono text-xs shadow-inner border border-slate-800">
+<div class="flex items-center justify-between text-subtle text-[11px] pb-2 border-b border-slate-800">
+<span class="text-primary-light">GEOHASH_QUERY.DART</span>
+<span class="text-slate-400">DART 3.x</span>
+</div>
+<div class="pt-3 flex flex-col gap-1 leading-relaxed text-slate-300">
+<p class="text-slate-500">// Hyperlocal query bounds</p>
+<p><span class="text-accent-violet">final</span> center = <span class="text-primary-light">GeoPoint</span>(lat, lng);</p>
+<p><span class="text-accent-violet">final</span> bounds = <span class="text-primary-cyan">GeoFirePoint</span>.getBounds(radiusKm);</p>
+<p class="text-slate-500 mt-1">// Bypasses Google Distance Matrix billing</p>
+<p><span class="text-accent-violet">return</span> firestore.collection(<span class="text-emerald-400">'offers'</span>)</p>
+<p class="pl-3">.orderBy(<span class="text-emerald-400">'geohash'</span>)</p>
+<p class="pl-3">.startAt([bounds.start]).endAt([bounds.end]);</p>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-between text-xs font-mono">
+<span class="text-charcoal font-medium">Target Platform:</span>
+<span class="text-primary font-bold">Android (Google Play Console)</span>
+</div>
+</div>
+</div>
+</article>
+<!-- PROJECT 2: Polymer Market -->
+<article class="project-card cursor-pointer p-8 lg:p-10 rounded-3xl bg-white border border-borderline hover:border-primary/50 shadow-card hover:shadow-card-hover transition-all duration-300 relative group" data-category="flutter" onclick="openProjectModal('polymer')">
+<div class="absolute top-6 right-6 flex items-center gap-2 z-10">
+<a href="https://polymermarkets.casestudy.clustratio.scanlify.store/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-primary hover:bg-primary-focus text-white text-xs font-mono font-semibold shadow-sm transition-all hover:scale-105" title="Open Detailed Polymer Market Case Study">
+<span>Live Case Study</span>
+<span class="material-symbols-outlined text-[15px]">open_in_new</span>
+</a>
+<span class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-100 group-hover:bg-primary-tint group-hover:text-primary text-muted text-xs font-mono font-medium transition-colors">
+<span>Architecture Specs</span>
+<span class="material-symbols-outlined text-[15px]">tune</span>
+</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div>
+<div class="flex flex-wrap items-center gap-2 mb-3">
+<span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 font-mono text-xs font-bold uppercase">Production Released</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-charcoal font-mono text-xs font-medium">Android &amp; iOS</span>
+<span class="px-2.5 py-1 rounded-md bg-purple-50 text-accent-violet font-mono text-xs font-semibold">Bloc Architecture</span>
+</div>
+<h3 class="font-display text-2xl sm:text-3xl font-bold text-obsidian group-hover:text-primary transition-colors">
+                    Polymer Market — B2B Raw Materials Exchange
+                  </h3>
+<p class="text-charcoal/80 text-sm mt-3 leading-relaxed">
+                    Designed and deployed real-time dual-store mobile experience for commodity spot quotes, phone OTP verification, and FCM push broadcast microservices.
+                  </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+<span class="font-mono text-xs font-bold text-primary uppercase block">Bloc State Machine</span>
+<p class="text-xs text-charcoal/80 mt-1">Immutable states and event-driven pipeline preventing stale order books.</p>
+</div>
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+<span class="font-mono text-xs font-bold text-accent-emerald uppercase block">Cloud Run Microservice</span>
+<p class="text-xs text-charcoal/80 mt-1">Containerized Node.js API with auto-scaling to zero to control cloud run cost.</p>
+</div>
+</div>
+</div>
+<div class="mt-4 p-3.5 rounded-xl bg-gradient-to-r from-sky-50 to-blue-50 border border-sky-200/80 flex flex-wrap items-center justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="text-xs font-semibold text-obsidian">Detailed Production Case Study Available</span>
+</div>
+<a href="https://polymermarkets.casestudy.clustratio.scanlify.store/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-primary hover:text-primary-focus transition-colors">
+<span>Open polymermarkets.casestudy ↗</span>
+</a>
+</div>
+<div class="flex flex-wrap items-center gap-6 pt-6 mt-4 border-t border-slate-100">
+<div>
+<span class="font-display text-xl font-bold text-primary">Dual Store</span>
+<span class="font-mono text-xs text-muted block">Play Store &amp; TestFlight</span>
+</div>
+<div class="h-6 w-px bg-slate-200"></div>
+<div>
+<span class="font-display text-xl font-bold text-accent-emerald">100% Realtime</span>
+<span class="font-mono text-xs text-muted block">FCM Commodity Push</span>
+</div>
+<div class="h-6 w-px bg-slate-200"></div>
+<div>
+<span class="font-display text-xl font-bold text-obsidian">Zero Crash</span>
+<span class="font-mono text-xs text-muted block">AAB / IPA Release</span>
+</div>
+</div>
+</div>
+<!-- Visual Topology -->
+<div class="lg:col-span-5 flex flex-col justify-center">
+<div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col gap-3">
+<span class="font-mono text-xs font-bold text-muted uppercase tracking-wider">Topology Diagram</span>
+<div class="p-3 rounded-xl bg-white border border-slate-200 flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">phone_iphone</span>
+<span class="text-xs font-medium text-obsidian">Flutter Client (Bloc Provider)</span>
+</div>
+<span class="font-mono text-[11px] text-muted font-bold">Dart 3</span>
+</div>
+<div class="flex justify-center text-slate-400">
+<span class="material-symbols-outlined text-[18px]">sync_alt</span>
+</div>
+<div class="p-3 rounded-xl bg-white border border-slate-200 flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accent-emerald text-[20px]">cloud</span>
+<span class="text-xs font-medium text-obsidian">GCP Cloud Run (Dockerized)</span>
+</div>
+<span class="font-mono text-[11px] text-primary font-bold">Node.js API</span>
+</div>
+<div class="flex justify-center text-slate-400">
+<span class="material-symbols-outlined text-[18px]">sync_alt</span>
+</div>
+<div class="p-3 rounded-xl bg-white border border-slate-200 flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accent-violet text-[20px]">database</span>
+<span class="text-xs font-medium text-obsidian">Cloud Firestore &amp; Auth OTP</span>
+</div>
+<span class="font-mono text-[11px] text-accent-violet font-bold">Realtime NoSQL</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- 2-Column Split: Relexwise & Avora Markets -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- PROJECT 3: Relexwise -->
+<article class="project-card cursor-pointer p-8 rounded-3xl bg-white border border-borderline hover:border-primary/50 shadow-card hover:shadow-card-hover transition-all duration-300 flex flex-col justify-between group" data-category="ai" onclick="openProjectModal('relexwise')">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-md bg-purple-50 text-accent-violet border border-purple-200 font-mono text-xs font-bold uppercase">Modernization &amp; AI</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-charcoal font-mono text-xs">Gemini + RAG</span>
+</div>
+<span class="material-symbols-outlined text-muted group-hover:text-primary transition-colors text-[20px]">open_in_new</span>
+</div>
+<h3 class="font-display text-xl font-bold text-obsidian group-hover:text-primary transition-colors">
+                  Relexwise — Smart Leader
+                </h3>
+<p class="text-charcoal/80 text-sm mt-3 leading-relaxed">
+                  Enterprise application modernization integrating offline-first SQLite/Hive persistence layer, Gemini API RAG pipelines, and bidirectional STT/TTS voice synthesis.
+                </p>
+<div class="p-4 rounded-xl bg-slate-50 border border-slate-200 mt-4 flex flex-col gap-1">
+<span class="font-mono text-xs font-bold text-accent-violet uppercase">RAG Vector Intelligence</span>
+<p class="text-xs text-charcoal/80">
+                    Integrated Vertex AI embeddings with Qdrant vector database via LangChain connectors for natural language context retrieval.
+                  </p>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between font-mono text-xs text-accent-emerald font-bold">
+<span>Offline-First + AI Voice Integration</span>
+<span class="material-symbols-outlined text-primary text-[20px]">mic</span>
+</div>
+</article>
+<!-- PROJECT 4: Avora Markets -->
+<article class="project-card cursor-pointer p-8 rounded-3xl bg-white border border-borderline hover:border-primary/50 shadow-card hover:shadow-card-hover transition-all duration-300 flex flex-col justify-between group" data-category="devops" onclick="openProjectModal('avora')">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 font-mono text-xs font-bold uppercase">AI Automation &amp; Cloud</span>
+<span class="px-2.5 py-1 rounded-md bg-slate-100 text-charcoal font-mono text-xs">Zero-Downtime</span>
+</div>
+<div class="flex items-center gap-2 z-10">
+<a href="https://avoramarkets.casestudy.clustratio.scanlify.store/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary hover:bg-primary-focus text-white text-xs font-mono font-semibold shadow-sm transition-all hover:scale-105" title="Open Detailed Avora Markets Case Study">
+<span>Live Case Study</span>
+<span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+</div>
+</div>
+<h3 class="font-display text-xl font-bold text-obsidian group-hover:text-primary transition-colors">
+                  Avora Markets — WhatsApp AI CRM
+                </h3>
+<p class="text-charcoal/80 text-sm mt-3 leading-relaxed">
+                  Autonomous enterprise conversational system deployed on GCP with Nginx reverse proxying, serving automated customer inquiries via Gemini LLM pipelines.
+                </p>
+<div class="p-4 rounded-xl bg-slate-50 border border-slate-200 mt-4 flex flex-col gap-1">
+<span class="font-mono text-xs font-bold text-accent-emerald uppercase">Blue/Green CI/CD Pipeline</span>
+<p class="text-xs text-charcoal/80">
+                    Engineered GitHub Actions blue/green deployment strategy ensuring zero downtime across 1,000+ real-time customer negotiations.
+                  </p>
+</div>
+<div class="mt-4 p-3 rounded-xl bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200/80 flex flex-wrap items-center justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-accent-emerald animate-pulse"></span>
+<span class="text-xs font-semibold text-obsidian">WhatsApp AI CRM Live Case Study</span>
+</div>
+<a href="https://avoramarkets.casestudy.clustratio.scanlify.store/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" class="inline-flex items-center gap-1 text-xs font-mono font-bold text-accent-emerald hover:text-emerald-700 transition-colors">
+<span>Open avoramarkets.casestudy ↗</span>
+</a>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between font-mono text-xs text-primary font-bold">
+<span>1,000+ Realtime Inquiries Handled</span>
+<span class="material-symbols-outlined text-accent-emerald text-[20px]">mark_chat_unread</span>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- 4. TECHNICAL ARCHITECTURE & TAXONOMY MATRIX -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-12" id="tech-taxonomy">
+<div class="flex flex-col mb-8">
+<div class="flex items-center gap-1.5 text-primary font-mono text-xs font-bold tracking-widest uppercase mb-1">
+<span class="material-symbols-outlined text-[17px]">terminal</span>
+<span>Comprehensive Capability Index</span>
+</div>
+<h2 class="font-display text-3xl font-bold text-obsidian tracking-tight">
+            Technical Architecture &amp; Skills Matrix
+          </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Group 1 -->
+<div class="p-6 rounded-2xl bg-white border border-borderline shadow-card flex flex-col">
+<div class="flex items-center gap-2 text-primary mb-3">
+<span class="material-symbols-outlined text-[22px]">phone_android</span>
+<h3 class="font-display font-semibold text-base text-obsidian">Mobile Core &amp; UI</h3>
+</div>
+<div class="flex flex-wrap gap-2 mt-2">
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs font-semibold text-obsidian">Flutter SDK</span>
+<span class="px-3 py-1 rounded-lg bg-sky-50 text-primary border border-sky-200 font-mono text-xs font-bold">Dart 3.x</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Android &amp; iOS</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">MethodChannels</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Custom Shimmers</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Hive &amp; SQLite</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Platform Channels</span>
+</div>
+</div>
+<!-- Group 2 -->
+<div class="p-6 rounded-2xl bg-white border border-borderline shadow-card flex flex-col">
+<div class="flex items-center gap-2 text-accent-violet mb-3">
+<span class="material-symbols-outlined text-[22px]">account_tree</span>
+<h3 class="font-display font-semibold text-base text-obsidian">State Architecture</h3>
+</div>
+<div class="flex flex-wrap gap-2 mt-2">
+<span class="px-3 py-1 rounded-lg bg-purple-50 text-accent-violet border border-purple-200 font-mono text-xs font-bold">Bloc Pattern</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">GetX</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Provider</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Clean / MVVM</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Streams &amp; RxDart</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">get_it (Service Locator)</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">go_router / Nav 2.0</span>
+</div>
+</div>
+<!-- Group 3 -->
+<div class="p-6 rounded-2xl bg-white border border-borderline shadow-card flex flex-col">
+<div class="flex items-center gap-2 text-cyan-800 mb-3">
+<span class="material-symbols-outlined text-[22px]">psychology</span>
+<h3 class="font-display font-semibold text-base text-obsidian">AI &amp; LLM Toolchains</h3>
+</div>
+<div class="flex flex-wrap gap-2 mt-2">
+<span class="px-3 py-1 rounded-lg bg-cyan-50 text-cyan-800 border border-cyan-200 font-mono text-xs font-bold">Claude Code / 3.5 Sonnet</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Gemini 1.5 Pro API</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">LangChain RAG</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Qdrant Vector DB</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Prompt Engineering</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Whisper Voice STT/TTS</span>
+</div>
+</div>
+<!-- Group 4 -->
+<div class="p-6 rounded-2xl bg-white border border-borderline shadow-card flex flex-col">
+<div class="flex items-center gap-2 text-primary mb-3">
+<span class="material-symbols-outlined text-[22px]">cloud_queue</span>
+<h3 class="font-display font-semibold text-base text-obsidian">Cloud &amp; Backend</h3>
+</div>
+<div class="flex flex-wrap gap-2 mt-2">
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Node.js &amp; Express</span>
+<span class="px-3 py-1 rounded-lg bg-sky-50 text-primary border border-sky-200 font-mono text-xs font-bold">GCP Cloud Run</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Docker Containers</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Cloud Firestore</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Firebase Auth &amp; OTP</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Nginx Reverse Proxy</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">AWS</span><span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">IAM</span><span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">EC2</span><span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Infra Management</span><span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">VPC</span></div>
+</div>
+<!-- Group 5 -->
+<div class="p-6 rounded-2xl bg-white border border-borderline shadow-card flex flex-col">
+<div class="flex items-center gap-2 text-accent-emerald mb-3">
+<span class="material-symbols-outlined text-[22px]">speed</span>
+<h3 class="font-display font-semibold text-base text-obsidian">Testing &amp; App Delivery</h3>
+</div>
+<div class="flex flex-wrap gap-2 mt-2">
+<span class="px-3 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 font-mono text-xs font-bold">Flutter DevTools Profiling</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Widget &amp; Unit Tests</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Memory Leak Audits</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Google Play Console</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Apple TestFlight</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Postman Automation</span>
+</div>
+</div>
+<!-- Group 6 -->
+<div class="p-6 rounded-2xl bg-white border border-borderline shadow-card flex flex-col">
+<div class="flex items-center gap-2 text-charcoal mb-3">
+<span class="material-symbols-outlined text-[22px]">shield</span>
+<h3 class="font-display font-semibold text-base text-obsidian">CI/CD &amp; Security Compliance</h3>
+</div>
+<div class="flex flex-wrap gap-2 mt-2">
+<span class="px-3 py-1 rounded-lg bg-slate-900 text-white font-mono text-xs font-bold">GitHub Actions</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Blue/Green Releases</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Firestore RBAC Security</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Play Store Data Safety</span>
+<span class="px-3 py-1 rounded-lg bg-slate-100 font-mono text-xs text-charcoal">Data Erasure API</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. AI-ASSISTED DEVELOPMENT FORCE MULTIPLIER -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-12">
+<div class="p-8 lg:p-12 rounded-3xl bg-white border border-borderline shadow-card">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 mb-8">
+<div>
+<div class="flex items-center gap-1.5 text-primary font-mono text-xs font-bold tracking-widest uppercase mb-1">
+<span class="material-symbols-outlined text-[17px]">psychology</span>
+<span>Engineering Discipline</span>
+</div>
+<h2 class="font-display text-3xl font-bold text-obsidian tracking-tight">
+                AI-Assisted Workflow: Production Force Multiplier
+              </h2>
+</div>
+<span class="px-3.5 py-1.5 rounded-lg bg-slate-100 text-obsidian font-mono text-xs font-bold border border-slate-200 self-start lg:self-auto">
+              Human Architecture • Zero Hallucinations
+            </span>
+</div>
+<!-- 3 Steps -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-8 h-8 rounded-lg bg-white border border-slate-200 font-mono text-xs font-bold text-primary flex items-center justify-center shadow-sm">01</span>
+<span class="font-mono text-xs text-muted">CLAUDE CODEX</span>
+</div>
+<h3 class="font-display font-semibold text-base text-obsidian mb-2">Architecture &amp; Refactoring</h3>
+<p class="text-xs text-charcoal/80 leading-relaxed">
+                  Generates boilerplate-free Bloc states, strict event typing, and clean domain contracts. Praveen focuses on domain logic and stream synchronicity.
+                </p>
+</div>
+<div class="mt-6 pt-3 border-t border-slate-200 font-mono text-xs text-accent-emerald font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">bolt</span> 60% Faster Boilerplate Generation
+              </div>
+</div>
+<div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-8 h-8 rounded-lg bg-white border border-slate-200 font-mono text-xs font-bold text-accent-violet flex items-center justify-center shadow-sm">02</span>
+<span class="font-mono text-xs text-muted">DEVTOOLS + LLM</span>
+</div>
+<h3 class="font-display font-semibold text-base text-obsidian mb-2">Rebuild Profiling &amp; QA</h3>
+<p class="text-xs text-charcoal/80 leading-relaxed">
+                  Feeds widget trees and flame charts into custom prompt runners to isolate memory leaks, duplicate rebuild triggers, and write edge-case unit assertions.
+                </p>
+</div>
+<div class="mt-6 pt-3 border-t border-slate-200 font-mono text-xs text-accent-emerald font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">speed</span> 60 FPS Scroll Stability
+              </div>
+</div>
+<div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="w-8 h-8 rounded-lg bg-white border border-slate-200 font-mono text-xs font-bold text-cyan-800 flex items-center justify-center shadow-sm">03</span>
+<span class="font-mono text-xs text-muted">RAG &amp; MULTIMODAL</span>
+</div>
+<h3 class="font-display font-semibold text-base text-obsidian mb-2">Production AI Features</h3>
+<p class="text-xs text-charcoal/80 leading-relaxed">
+                  Directly ships AI capabilities inside Flutter apps via Gemini REST endpoints, vector search embeddings, voice speech engines, and WhatsApp CRM pipelines.
+                </p>
+</div>
+<div class="mt-6 pt-3 border-t border-slate-200 font-mono text-xs text-accent-emerald font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">verified</span> 1,000+ Handled Inquiries
+              </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. RESUME DOWNLOAD & CONTACT SECTION -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-12" id="contact-section">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<!-- Left: ATS Resume Download Panel -->
+<div class="lg:col-span-5 p-8 rounded-3xl bg-white border border-borderline shadow-card flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1.5 text-primary font-mono text-xs font-bold tracking-widest uppercase mb-1">
+<span class="material-symbols-outlined text-[17px]">description</span>
+<span>Verified Credentials</span>
+</div>
+<h3 class="font-display text-2xl font-bold text-obsidian">ATS-Optimized Resumes</h3>
+<p class="text-xs text-muted mt-1 leading-relaxed">
+                Curated specifically for engineering leadership reviews and screening systems. Select your preferred format:
+              </p>
+<div class="flex flex-col gap-3 mt-6">
+<div class="p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-primary/50 hover:bg-white transition-all flex items-center justify-between group">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[24px]">article</span>
+<div class="flex flex-col">
+<span class="font-display font-semibold text-sm text-obsidian">A4 Standard Format</span>
+<span class="font-mono text-[11px] text-muted">Optimized for India &amp; Global Screening</span>
+</div>
+</div>
+<button class="px-3 py-1.5 rounded-lg bg-primary hover:bg-primary-focus text-white font-mono text-xs font-semibold flex items-center gap-1 transition-colors" onclick="triggerResumeDownload('A4')">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span>PDF</span>
+</button>
+</div>
+
+</div>
+</div>
+<!-- Direct Contact Coordinates -->
+<div class="pt-6 mt-6 border-t border-slate-100 flex flex-col gap-2">
+<span class="font-mono text-[11px] text-muted uppercase font-bold tracking-wider">Direct Direct Lines:</span>
+<a class="flex items-center gap-2 text-obsidian hover:text-primary transition-colors text-sm font-medium" href="tel:+919025896796">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+<span>+91 90258 96796</span>
+</a>
+<a class="flex items-center gap-2 text-obsidian hover:text-primary transition-colors text-sm font-medium" href="mailto:praveensuresh1605@gmail.com">
+<span class="material-symbols-outlined text-[18px] text-accent-emerald">mail</span>
+<span>praveensuresh1605@gmail.com</span>
+</a>
+</div>
+</div>
+<!-- Right: Interview Contact Form -->
+<div class="lg:col-span-7 p-8 rounded-3xl bg-white border border-borderline shadow-card flex flex-col justify-between"><div class="flex flex-col h-full justify-between gap-6"><div><div class="flex flex-wrap items-center justify-between gap-2 mb-2"><span class="font-mono text-xs font-bold text-accent-emerald uppercase tracking-wider flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-accent-emerald animate-pulse"></span>Available for Immediate Interview</span><span class="px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 font-mono text-xs font-semibold">Immediate Joiner • On-site / Remote / Hybrid</span></div><h3 class="font-display text-2xl font-bold text-obsidian mt-2">Direct Interview &amp; Communication Lines</h3><p class="text-xs text-muted mt-1 leading-relaxed">Available for upcoming technical interview rounds &amp; immediate hiring discussions. Feel free to call or email directly.</p><div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6"><a href="tel:+919025896796" class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-primary hover:bg-white transition-all shadow-sm flex flex-col justify-between group"><div class="flex items-center justify-between mb-3"><span class="w-10 h-10 rounded-xl bg-sky-100 text-primary flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">call</span></span><span class="font-mono text-[11px] font-bold text-primary uppercase">Direct Call</span></div><div><span class="font-mono text-xs text-muted block">Mobile / WhatsApp</span><span class="font-display font-bold text-base text-obsidian group-hover:text-primary transition-colors">+91 90258 96796</span></div></a><a href="mailto:praveensuresh1605@gmail.com" class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-accent-emerald hover:bg-white transition-all shadow-sm flex flex-col justify-between group"><div class="flex items-center justify-between mb-3"><span class="w-10 h-10 rounded-xl bg-emerald-100 text-accent-emerald flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">mail</span></span><span class="font-mono text-[11px] font-bold text-accent-emerald uppercase">Email</span></div><div><span class="font-mono text-xs text-muted block">Primary Communication</span><span class="font-display font-bold text-sm text-obsidian group-hover:text-accent-emerald transition-colors truncate block">praveensuresh1605@gmail.com</span></div></a></div><a href="https://github.com/Praveen0586" target="_blank" rel="noreferrer" class="mt-4 p-4 rounded-xl bg-slate-50 border border-slate-200 hover:border-obsidian hover:bg-white transition-all flex items-center justify-between group"><div class="flex items-center gap-3"><span class="w-9 h-9 rounded-lg bg-obsidian text-white flex items-center justify-center"><span class="material-symbols-outlined text-[18px]">terminal</span></span><div class="flex flex-col"><span class="font-display font-semibold text-sm text-obsidian">GitHub Engineering Profile</span><span class="font-mono text-xs text-muted">github.com/Praveen0586</span></div></div><span class="material-symbols-outlined text-muted group-hover:text-obsidian group-hover:translate-x-0.5 transition-all text-[20px]">arrow_forward</span></a></div><div class="p-4 rounded-xl bg-sky-50 border border-sky-200 text-xs text-charcoal/90 flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[18px]">info</span><span>Typically responds within 2 hours for technical screening schedules and hiring manager interviews.</span></div></div></div>
+</div>
+</section>
+</div>
+</main>
+<!-- Executive Footer -->
+<footer class="w-full bg-white border-t border-borderline mt-16 py-12">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex flex-col items-center md:items-start gap-1">
+<div class="flex items-center gap-2">
+<span class="font-mono text-xs font-bold text-white bg-obsidian px-2 py-0.5 rounded">PS</span>
+<span class="font-display font-bold text-obsidian text-base">Praveen S</span>
+</div>
+<p class="text-xs text-muted text-center md:text-left">Executive Monolith Portfolio • Clean Platinum &amp; Radiant Cyan Editorial</p>
+<p class="font-mono text-[11px] text-subtle mt-1">© 2025 Praveen S. Precision Engineered for Akra Tech.</p>
+</div>
+<div class="flex flex-wrap items-center gap-6">
+<a class="flex items-center gap-1.5 text-xs font-mono font-medium text-charcoal hover:text-primary transition-colors" href="mailto:praveensuresh1605@gmail.com">
+<span class="material-symbols-outlined text-[16px] text-primary">mail</span>
+<span>praveensuresh1605@gmail.com</span>
+</a>
+<a class="flex items-center gap-1.5 text-xs font-mono font-medium text-charcoal hover:text-primary transition-colors" href="https://github.com/Praveen0586" rel="noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px] text-accent-emerald">terminal</span>
+<span>github.com/Praveen0586</span>
+</a>
+<button class="px-3.5 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-obsidian font-mono text-xs font-semibold transition-colors" onclick="openResumeModal()">
+          ATS Resume
+        </button>
+</div>
+</div>
+</footer>
+<!-- ========================================================================= -->
+<!-- CRITICAL INTERACTIVE MODAL: PROJECT ARCHITECTURAL DEEP DIVE DRAWER -->
+<!-- ========================================================================= -->
+<div class="fixed inset-0 z-50 hidden overflow-y-auto bg-obsidian/60 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6" id="project-detail-modal">
+<div class="relative w-full max-w-4xl bg-white rounded-3xl shadow-2xl border border-borderline overflow-hidden my-8 transform transition-all">
+<!-- Drawer Header -->
+<div class="px-6 py-5 sm:px-8 border-b border-slate-100 flex items-center justify-between bg-slate-50/70">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-xl bg-primary text-white flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]" id="modal-icon">layers</span>
+</div>
+<div>
+<span class="font-mono text-[11px] font-bold text-primary uppercase tracking-wider" id="modal-tag">ARCHITECTURE DEEP DIVE</span>
+<h3 class="font-display text-xl font-bold text-obsidian" id="modal-title">Project Title</h3>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<a id="modal-header-live-btn" href="#" target="_blank" rel="noopener noreferrer" class="hidden px-3.5 py-1.5 rounded-xl bg-primary hover:bg-primary-focus text-white text-xs font-mono font-semibold flex items-center gap-1.5 shadow-sm transition-all hover:scale-105">
+<span>Open Live Case Study</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+<button class="w-9 h-9 rounded-full bg-slate-200/70 hover:bg-slate-300 text-obsidian flex items-center justify-center transition-colors" onclick="closeProjectModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+</div>
+<!-- Drawer Content -->
+<div class="p-6 sm:p-8 flex flex-col gap-6 max-h-[75vh] overflow-y-auto">
+<!-- Live Metrics Bar -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="modal-metrics">
+<!-- Injected dynamically -->
+</div>
+<!-- Live Case Study Banner (dynamic) -->
+<div id="modal-live-banner" class="hidden p-4 rounded-2xl bg-gradient-to-r from-sky-50 via-cyan-50 to-emerald-50 border border-sky-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary text-white flex items-center justify-center shadow-sm shrink-0">
+<span class="material-symbols-outlined text-[22px]">public</span>
+</div>
+<div>
+<h5 class="font-display font-bold text-sm text-obsidian">Detailed Production Case Study Available</h5>
+<p class="text-xs text-muted">Explore live interactive UI flow, benchmarks, and deployment architecture.</p>
+</div>
+</div>
+<a id="modal-banner-live-btn" href="#" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-primary hover:bg-primary-focus text-white text-xs font-mono font-semibold flex items-center gap-1.5 shadow-sm transition-all shrink-0">
+<span>Visit Live Case Study</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+<!-- Architectural Topology Section -->
+<div class="flex flex-col gap-2">
+<h4 class="font-mono text-xs font-bold uppercase tracking-wider text-charcoal flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary">account_tree</span>
+<span>Architectural Topology &amp; Implementation</span>
+</h4>
+<div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-sm text-charcoal/90 leading-relaxed font-sans" id="modal-topology">
+<!-- Injected dynamically -->
+</div>
+</div>
+<!-- Claude Prompt & Accelerated Engineering -->
+<div class="flex flex-col gap-2">
+<h4 class="font-mono text-xs font-bold uppercase tracking-wider text-charcoal flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-accent-violet">neurology</span>
+<span>Engineering Deep Dive &amp; Claude AI Prompts</span>
+</h4>
+<div class="p-4 rounded-xl bg-obsidian text-slate-200 font-mono text-xs leading-relaxed overflow-x-auto shadow-inner border border-slate-800" id="modal-prompts">
+<!-- Injected dynamically -->
+</div>
+</div>
+<!-- Key Outcomes / Akra Tech Relevance -->
+<div class="p-4 rounded-xl bg-sky-50/80 border border-sky-200 flex flex-col gap-1.5">
+<span class="font-mono text-xs font-bold text-primary uppercase">Value Delivery &amp; Akra Tech Synergy</span>
+<p class="text-xs text-charcoal/90 leading-relaxed" id="modal-synergy">
+<!-- Injected dynamically -->
+</p>
+</div>
+</div>
+<!-- Drawer Footer Actions -->
+<div class="px-6 py-4 sm:px-8 border-t border-slate-100 bg-slate-50 flex flex-wrap items-center justify-between gap-3">
+<button class="px-4 py-2 rounded-xl bg-white hover:bg-slate-100 border border-slate-200 text-obsidian text-xs font-mono font-medium flex items-center gap-1.5 transition-colors" onclick="copyCaseStudySummary()">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span id="copy-btn-text">Copy Case Study Summary</span>
+</button>
+<div class="flex items-center gap-2">
+<a id="modal-footer-live-btn" href="#" target="_blank" rel="noopener noreferrer" class="hidden px-4 py-2 rounded-xl bg-primary hover:bg-primary-focus text-white text-xs font-mono font-semibold flex items-center gap-1.5 shadow-sm transition-colors">
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+<span>Open Detailed Case Study</span>
+</a>
+<button class="px-4 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-obsidian text-xs font-mono font-medium transition-colors" onclick="closeProjectModal()">
+            Close
+          </button>
+<button class="px-4 py-2 rounded-xl bg-obsidian hover:bg-charcoal text-white text-xs font-mono font-semibold flex items-center gap-1.5 shadow-sm transition-colors" onclick="closeProjectModal(); openResumeModal();">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span>Resume</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Resume Preview / Download Modal -->
+<div class="fixed inset-0 z-50 hidden bg-obsidian/60 backdrop-blur-sm flex items-center justify-center p-4" id="resume-modal">
+<div class="w-full max-w-xl rounded-3xl bg-white border border-borderline shadow-2xl p-6 sm:p-8 flex flex-col gap-6">
+<div class="flex items-center justify-between border-b border-slate-100 pb-4">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-xl bg-primary text-white flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+</div>
+<div>
+<h4 class="font-display font-bold text-lg text-obsidian">Praveen S — Resume Access</h4>
+<span class="font-mono text-xs text-muted">ATS Ready • Dual Layout Available</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-muted hover:text-obsidian" onclick="closeResumeModal()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<p class="text-xs text-charcoal/80 leading-relaxed">
+        Select the target layout format for engineering review, candidate tracking, or print verification:
+      </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col justify-between hover:border-primary/50 transition-colors">
+<div>
+<span class="font-mono text-[11px] font-bold text-primary uppercase">Direct Download</span>
+<h5 class="font-display font-semibold text-sm text-obsidian mt-1">Praveen S Resume (PDF)</h5>
+<p class="text-xs text-muted mt-1">Complete ATS-optimized resume ready for recruiting & hiring managers.</p>
+</div>
+<div class="flex items-center gap-2 mt-4">
+<button class="flex-1 px-4 py-2 rounded-xl bg-primary hover:bg-primary-focus text-white font-mono text-xs font-bold transition-colors flex items-center justify-center gap-1.5" onclick="triggerResumeDownload('A4')">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span>Download PDF</span>
+</button>
+</div>
+</div>
+<div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col justify-between hover:border-accent-violet/50 transition-colors">
+<div>
+<span class="font-mono text-[11px] font-bold text-accent-violet uppercase">In-Browser Preview</span>
+<h5 class="font-display font-semibold text-sm text-obsidian mt-1">Open Resume in Tab</h5>
+<p class="text-xs text-muted mt-1">Instant browser preview of Praveen_S_Resume.pdf without downloading.</p>
+</div>
+<a href="Praveen_S_Resume.pdf" target="_blank" class="mt-4 px-4 py-2 rounded-xl bg-obsidian hover:bg-charcoal text-white font-mono text-xs font-bold transition-colors flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+<span>View in Browser</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- INTERACTIVE LOGIC SCRIPT -->
+<script>
+    // Project Dataset for Interactive Deep Dives
+    const projectData = {
+      offermela: {
+        title: "Offer Mela — Dual Mobile Ecosystem & Hyperlocal Discovery",
+        tag: "FLAGSHIP MOBILE DELIVERY • CLOSED TESTING LIVE",
+        icon: "storefront",
+        metrics: [
+          { label: "Google Maps API Cost", val: "$0.00", color: "text-accent-emerald" },
+          { label: "Rendering Velocity", val: "60 FPS", color: "text-primary" },
+          { label: "Apps Delivered", val: "2 Native", color: "text-accent-violet" },
+          { label: "Play Policy Score", val: "100%", color: "text-cyan-700" }
+        ],
+        topology: `
+          <ul class="space-y-2 list-disc pl-4">
+            <li><strong>Dual Client Architecture:</strong> Separate Flutter targets for Consumer Deal Discovery and Merchant Retailer Dashboards, unified via shared core domain abstractions.</li>
+            <li><strong>Client-Side Geohash Optimization:</strong> Solved high-cost location matrix lookups by calculating geohash coordinates once per session on the client and executing bounding box Firestore queries, driving recurrent Map API costs to $0.</li>
+            <li><strong>Compliance Pipeline:</strong> Automated user data erasure microservice ensuring strict adherence to Google Play account deletion mandates.</li>
+          </ul>
+        `,
+        prompts: `
+# Architecture Prompt Run with Claude 3.5 Sonnet:
+Prompt: "Generate an immutable Flutter Bloc state pipeline for bounding-box Geohash spatial queries with zero-rebuild memoization in Dart 3. Ensure offline local caching via Hive before remote Firestore roundtrips."
+
+Result: Reduced state machine boilerplate by 60%, implemented zero-jank frame rendering during rapid map panning.
+        `,
+        synergy: "Demonstrates Praveen's ability to act as the sole mobile architect, owning everything from wireframes to Google Play Console releases with razor-sharp commercial efficiency."
+      },
+      polymer: {
+        title: "Polymer Market — B2B Raw Materials Exchange",
+        tag: "PRODUCTION RELEASED • DUAL PLATFORM (APP STORE & PLAY STORE)",
+        icon: "inventory_2",
+        liveUrl: "https://polymermarkets.casestudy.clustratio.scanlify.store/",
+        metrics: [
+          { label: "Target Platforms", val: "iOS + Android", color: "text-primary" },
+          { label: "Push Notification Rate", val: "100% Realtime", color: "text-accent-emerald" },
+          { label: "Crash-Free Rate", val: "99.8%", color: "text-accent-violet" },
+          { label: "Cloud Scale", val: "GCP Run", color: "text-cyan-700" }
+        ],
+        topology: `
+          <ul class="space-y-2 list-disc pl-4">
+            <li><strong>Bloc State Machine:</strong> Strictly enforced Event-State decoupling with unidirectional data flow, ensuring that fluctuating B2B commodity price tickets never trigger UI desyncs.</li>
+            <li><strong>Dockerized Cloud Run:</strong> Node.js backend containerized and deployed to Google Cloud Run, utilizing serverless concurrency to scale during morning trading rushes.</li>
+            <li><strong>Authentication & Push:</strong> Firebase Phone OTP verification with secure token rotation and multi-channel FCM notifications for instant spot price alerts.</li>
+          </ul>
+        `,
+        prompts: `
+# Claude Prompt for Resilience Testing:
+Prompt: "Write unit & widget tests validating state restoration for Flutter Bloc when the device switches between cellular and offline mode during active commodity order creation."
+
+Result: 100% test coverage over critical cart checkout streams and network drop resilience.
+        `,
+        synergy: "Directly satisfies Akra Tech's demand for verified cross-platform parity, robust state management, and real-time backend synchronization."
+      },
+      relexwise: {
+        title: "Relexwise — Smart Leader",
+        tag: "MODERNIZATION & AI INTEGRATION",
+        icon: "mic",
+        metrics: [
+          { label: "Offline Persistence", val: "SQLite/Hive", color: "text-accent-emerald" },
+          { label: "Context RAG Search", val: "Qdrant Vector", color: "text-accent-violet" },
+          { label: "Voice Latency", val: "&lt;350ms", color: "text-primary" },
+          { label: "Architecture", val: "Clean MVVM", color: "text-cyan-700" }
+        ],
+        topology: `
+          <ul class="space-y-2 list-disc pl-4">
+            <li><strong>Offline-First Synchronization:</strong> Built local storage engines using Hive and SQLite that sync seamlessly once connectivity resumes.</li>
+            <li><strong>Multimodal Voice Flow:</strong> Embedded speech-to-text (STT) and text-to-speech (TTS) engines for hands-free operational logging on the ground.</li>
+            <li><strong>Retrieval-Augmented Generation:</strong> Contextual queries mapped into Vertex AI embeddings and indexed in Qdrant for semantic corporate leadership retrieval.</li>
+          </ul>
+        `,
+        prompts: `
+# AI Pipeline Synthesis:
+Prompt: "Design a LangChain vector pipeline to parse operational user transcripts, chunk them into 256-token embeddings, and execute low-latency cosine similarity lookups in Qdrant."
+
+Result: Enabled hands-free voice assistance with verifiable, hallucination-free document lookup.
+        `,
+        synergy: "Illustrates modern AI engineering capabilities: combining edge mobile devices with cloud vector intelligence."
+      },
+      avora: {
+        title: "Avora Markets — WhatsApp AI CRM",
+        tag: "DEVOPS & AI SCALE • ZERO-DOWNTIME",
+        icon: "chat",
+        liveUrl: "https://avoramarkets.casestudy.clustratio.scanlify.store/",
+        metrics: [
+          { label: "Client Inquiries", val: "1,000+ Realtime", color: "text-accent-emerald" },
+          { label: "CI/CD Pipeline", val: "Blue/Green", color: "text-primary" },
+          { label: "Uptime Record", val: "99.95%", color: "text-accent-violet" },
+          { label: "API Gateway", val: "Nginx Proxy", color: "text-cyan-700" }
+        ],
+        topology: `
+          <ul class="space-y-2 list-disc pl-4">
+            <li><strong>GCP Production Infrastructure:</strong> High-concurrency Node.js microservice reverse-proxied with Nginx to manage rate limits and SSL termination.</li>
+            <li><strong>Autonomous WhatsApp Automation:</strong> Integrated Meta WhatsApp Cloud API with Gemini 1.5 Pro to handle multi-turn client qualification and automated pricing quotes.</li>
+            <li><strong>Zero-Downtime Deployment:</strong> GitHub Actions pipeline implementing blue/green container swaps on Google Cloud, handling live user sessions without disruption.</li>
+          </ul>
+        `,
+        prompts: `
+# CI/CD Workflow Generation Prompt:
+Prompt: "Construct a GitHub Actions YAML script that runs automated test suites, builds Docker image, performs healthcheck on port 8080, and flips Nginx upstream symlink for zero-downtime blue/green deployment."
+
+Result: 100% automated release pipeline with instant automated rollback capability.
+        `,
+        synergy: "Proves full-lifecycle proficiency: not just mobile UI, but the backend, DevOps, and cloud reliability needed by high-growth product teams."
+      }
+    };
+
+    let activeCaseStudyKey = 'offermela';
+
+    // Open Project Detail Modal
+    function openProjectModal(key) {
+      const data = projectData[key];
+      if (!data) return;
+      activeCaseStudyKey = key;
+
+      document.getElementById('modal-title').textContent = data.title;
+      document.getElementById('modal-tag').textContent = data.tag;
+      document.getElementById('modal-icon').textContent = data.icon;
+      document.getElementById('modal-topology').innerHTML = data.topology;
+      document.getElementById('modal-prompts').textContent = data.prompts.trim();
+      document.getElementById('modal-synergy').textContent = data.synergy;
+
+      // Live URL buttons and banner
+      const headerLiveBtn = document.getElementById('modal-header-live-btn');
+      const footerLiveBtn = document.getElementById('modal-footer-live-btn');
+      const banner = document.getElementById('modal-live-banner');
+      const bannerBtn = document.getElementById('modal-banner-live-btn');
+
+      if (data.liveUrl) {
+        headerLiveBtn.href = data.liveUrl;
+        headerLiveBtn.classList.remove('hidden');
+        footerLiveBtn.href = data.liveUrl;
+        footerLiveBtn.classList.remove('hidden');
+        bannerBtn.href = data.liveUrl;
+        banner.classList.remove('hidden');
+      } else {
+        headerLiveBtn.classList.add('hidden');
+        footerLiveBtn.classList.add('hidden');
+        banner.classList.add('hidden');
+      }
+
+      // Populate Metrics
+      const metricsContainer = document.getElementById('modal-metrics');
+      metricsContainer.innerHTML = data.metrics.map(m => `
+        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col">
+          <span class="font-display text-lg font-bold ${m.color}">${m.val}</span>
+          <span class="font-mono text-[10px] uppercase text-muted font-semibold mt-0.5">${m.label}</span>
+        </div>
+      `).join('');
+
+      document.getElementById('project-detail-modal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeProjectModal() {
+      document.getElementById('project-detail-modal').classList.add('hidden');
+      document.body.style.overflow = '';
+      document.getElementById('copy-btn-text').textContent = 'Copy Case Study Summary';
+    }
+
+    // Filter Project Cards
+    function filterProjects(category, btnElement) {
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('bg-white', 'text-obsidian', 'font-bold', 'shadow-sm');
+        btn.classList.add('text-muted');
+      });
+      btnElement.classList.add('bg-white', 'text-obsidian', 'font-bold', 'shadow-sm');
+      btnElement.classList.remove('text-muted');
+
+      const cards = document.querySelectorAll('.project-card');
+      cards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Copy Summary Helper
+    function copyCaseStudySummary() {
+      const data = projectData[activeCaseStudyKey];
+      let textToCopy = `Case Study: ${data.title}\nRole: Sole Mobile/Cloud Engineer\nRelevance to Akra Tech: ${data.synergy}\nCandidate: Praveen S (+91 90258 96796)`;
+      if (data.liveUrl) {
+        textToCopy += `\nDetailed Case Study URL: ${data.liveUrl}`;
+      }
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        document.getElementById('copy-btn-text').textContent = 'Copied to Clipboard!';
+        setTimeout(() => {
+          document.getElementById('copy-btn-text').textContent = 'Copy Case Study Summary';
+        }, 2500);
+      });
+    }
+
+    // Resume Modals
+    function openResumeModal() {
+      document.getElementById('resume-modal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeResumeModal() {
+      document.getElementById('resume-modal').classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    function triggerResumeDownload(format) {
+      const link = document.createElement('a');
+      link.href = 'Praveen_S_Resume.pdf';
+      link.download = 'Praveen_S_Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      closeResumeModal();
+    }
+
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      document.getElementById('contact-success-msg').classList.remove('hidden');
+      e.target.reset();
+    }
+
+    // Close on backdrop click
+    window.addEventListener('click', (e) => {
+      const projModal = document.getElementById('project-detail-modal');
+      const resModal = document.getElementById('resume-modal');
+      if (e.target === projModal) closeProjectModal();
+      if (e.target === resModal) closeResumeModal();
+    });
+  </script>
+
+
+</body></html>
